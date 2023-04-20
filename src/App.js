@@ -1,10 +1,11 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Header from "./components/Header";
+import ScrollToTop from "./components/ScrollToTop";
 import Home from "./pages";
 import About from "./pages/team";
 import Blog from "./pages/blog";
 import Contact from "./pages/contact";
-import Header from "./components/Header";
 import Goals from "./pages/goals";
 import Features from "./pages/features";
 import Post0 from "./pages/blog_posts/Post0";
@@ -23,6 +24,7 @@ import Post11 from "./pages/blog_posts/Post11";
 function App() {
   return (
     <Router>
+      <ScrollToTop />
       <Header />
       <Routes>
         <Route exact path="/" element={<Home />} />
