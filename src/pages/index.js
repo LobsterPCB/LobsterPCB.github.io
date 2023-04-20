@@ -1,12 +1,12 @@
 import React from "react";
-// import titleVideo from "../images/front_video.mp4";
+import titleVideo from "../images/front_video.mp4";
 
 const Home = () => {
   return (
     <div>
       <div className="header-padding"></div>
       <div id="video-section">
-        {/* <video src={titleVideo} autoPlay loop muted /> */}
+        <video src={titleVideo} autoPlay loop muted />
         <div id="title">
           <img src={require("../images/Logo.png")}></img>
           <h3>From Idea to Circuit in the same day, Autonomously</h3>
