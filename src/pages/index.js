@@ -9,7 +9,7 @@ const Home = () => {
         <video src={titleVideo} autoPlay loop muted />
         <div id="title">
           <img src={require("../images/Logo.png")}></img>
-          <h3>From Idea to Circuit in the same day, Autonomously</h3>
+          <h1>From Idea to Circuit in the same day, Autonomously</h1>
         </div>
       </div>
       <div className="content">
