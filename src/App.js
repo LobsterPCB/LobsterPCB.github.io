@@ -5,9 +5,9 @@ import ScrollToTop from "./components/ScrollToTop";
 import Home from "./pages";
 import About from "./pages/team";
 import Blog from "./pages/blog";
-import Contact from "./pages/contact";
 import Goals from "./pages/goals";
 import Features from "./pages/features";
+import Product from "./pages/product";
 import Post0 from "./pages/blog_posts/Post0";
 import Post1 from "./pages/blog_posts/Post1";
 import Post2 from "./pages/blog_posts/Post2";
@@ -30,8 +30,8 @@ function App() {
         <Route exact path="/" element={<Home />} />
         <Route path="/goals" element={<Goals />} />
         <Route path="/features" element={<Features />} />
+        <Route path="/product" element={<Product />} />
         <Route path="/team" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/blog_posts/Post0" element={<Post0 />} />
         <Route path="/blog_posts/Post1" element={<Post1 />} />

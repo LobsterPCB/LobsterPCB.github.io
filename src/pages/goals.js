@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "../components/Footer";
 
 const Goals = () => {
   return (
@@ -83,6 +84,7 @@ const Goals = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

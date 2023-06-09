@@ -22,19 +22,16 @@ const Header = () => {
       ></link>
       <div class="navbar" id="navbarID">
         <NavLink to="/" activeStyle onClick={closeMobileNavbar}>
-          Project
+          Home
+        </NavLink>
+        <NavLink to="/product" activeStyle onClick={closeMobileNavbar}>
+          Product
         </NavLink>
         <NavLink to="/goals" activeStyle onClick={closeMobileNavbar}>
           Goals
         </NavLink>
-        <NavLink to="/features" activeStyle onClick={closeMobileNavbar}>
-          Features
-        </NavLink>
         <NavLink to="/team" activeStyle onClick={closeMobileNavbar}>
           Team
-        </NavLink>
-        <NavLink to="/contact" activeStyle onClick={closeMobileNavbar}>
-          Contact
         </NavLink>
         <NavLink to="/blog" activeStyle onClick={closeMobileNavbar}>
           Blog

@@ -3,8 +3,8 @@
   --background-body: #292929;
   --background-content: #1d1d1d;
   --text-color: #e5e5e5;
-  --highlight-color: #04aa6d;
-  --navbar-height: 2.9rem;
+  --highlight-color: #04aa6d; /*f71735 */
+  --navbar-height: 2.4em;
   --title-video-height: 70vh;
   --min-width: 300px;
   --edge-gap: 5%;
@@ -12,7 +12,7 @@
 
 body {
   margin: 0;
-  font-size: 100%;
+  font-size: 1.3em;
   font-family: "Roboto", sans-serif;
   background: var(--background-body);
   color: var(--text-color);
@@ -24,8 +24,19 @@ a {
 }
 
 .content {
-  padding: 0% var(--edge-gap) 2% var(--edge-gap);
+  width: 100%;
   text-align: center;
+}
+
+.content > div {
+  border: var(--highlight-color);
+  border-style: solid;
+  border-width: 5px 0 0 0;
+}
+
+.paragraph {
+  text-align: center;
+  padding: 0 15% 0 15%;
 }
 
 .text-boxes {
@@ -87,6 +98,10 @@ td {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  border: none;
+  /* border-color: #fff;
+  border: 4px solid red;
+  border-color: #fff; */
 }
 
 .navbar a:hover {
@@ -175,14 +190,42 @@ td {
   max-width: 700px;
 }
 
-/* Features */
-#features-content {
+.header-block {
   width: 100%;
+}
+
+/* Product */
+.product {
+  width: 100%;
+}
+
+.product-item {
+  background-color: var(--background-content);
   display: flex;
-  flex-direction: column;
+  /* flex-direction: row; */
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap-reverse;
   text-align: left;
 }
 
+.product-item div {
+  min-width: var(--min-width);
+  width: 40%;
+  text-align: left;
+}
+
+.product-item img {
+  width: 30%;
+}
+
+.product-item td,
+th {
+  border-style: solid;
+  border-color: var(--highlight-color);
+}
+
+/* Features */
 .features {
   display: flex;
   justify-content: space-evenly;
@@ -190,7 +233,10 @@ td {
   flex-wrap: wrap-reverse;
   padding: var(--edge-gap) 0% var(--edge-gap) 0%;
   background-color: var(--background-content);
-  border-radius: 20px;
+}
+
+#top-features {
+  padding: 0 0 var(--edge-gap) 0;
 }
 
 .opposite {
@@ -207,8 +253,8 @@ td {
   margin: 0;
   padding: 0;
   object-fit: cover;
-  width: 100%;
-  height: 100%;
+  width: 70%;
+  /* height: 100%; */
 }
 
 /* Team */

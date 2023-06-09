@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "../components/Footer";
 // import {}
 
 const Team = () => {
@@ -13,7 +14,7 @@ const Team = () => {
           <img src={require("../images/team/josh.jpg")} alt=""></img>
         </div>
         <div className="text-container">
-          <h1>The Team.</h1>
+          <h1>The Team</h1>
           <p>
             We are mechatronics engineering students from the university of
             waterloo, the lobster was our 4th year design project. We were
@@ -35,6 +36,7 @@ const Team = () => {
           </p>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };
