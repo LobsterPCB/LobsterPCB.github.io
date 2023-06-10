@@ -2,14 +2,17 @@ const Footer = () => {
   return (
     <footer>
       <div className="content">
-        <div>
-          <h1>Contact Us</h1>
+        <div id="contact">
           <h3>
-            Email us at{" "}
-            <a href="mailto: brandon.hao@outlook.com?subject=Questions about the Lobster PCB mill&body=">
-              brandon.hao@outlook.com
+            For more information{" "}
+            <a
+              href="mailto: brandon.hao@outlook.com?subject=Questions about the Lobster PCB mill&body="
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              click here
             </a>{" "}
-            for more information.
+            to contact us.
           </h3>
         </div>
       </div>
