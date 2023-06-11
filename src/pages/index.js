@@ -50,7 +50,7 @@ const Home = () => {
               handle this step automatically without mess or user interaction.
             </p>
           </div>
-          <div className="features-item">
+          <div className="features-item carousel">
             <Carousel
               autoplay="true"
               autoplayInterval={5000}
@@ -66,7 +66,7 @@ const Home = () => {
           <h1 className="header-block">Features</h1>
         </div>
         <div className="features opposite">
-          <div className="features-item">
+          <div className="features-item carousel">
             <Carousel
               autoplay="true"
               autoplayInterval={5000}
@@ -99,7 +99,7 @@ const Home = () => {
               intervention.
             </p>
           </div>
-          <div className="features-item">
+          <div className="features-item carousel">
             <Carousel
               autoplay="true"
               autoplayInterval={5000}
@@ -117,7 +117,7 @@ const Home = () => {
             <h3>Web interface</h3>
             <p>sldkfjlksfd</p>
           </div>
-          <div className="features-item">
+          <div className="features-item carousel">
             <Carousel
               autoplay="true"
               autoplayInterval={5000}
