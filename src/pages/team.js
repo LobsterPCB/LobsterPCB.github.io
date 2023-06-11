@@ -7,12 +7,6 @@ const Team = () => {
     <div>
       <div className="header-padding"></div>
       <div className="team">
-        <div className="image-container">
-          <img src={require("../images/team/brandon.jpg")} alt=""></img>
-          <img src={require("../images/team/james.jpg")} alt=""></img>
-          <img src={require("../images/team/caleb.jpg")} alt=""></img>
-          <img src={require("../images/team/josh.jpg")} alt=""></img>
-        </div>
         <div className="text-container">
           <h1>The Team</h1>
           <p>
@@ -34,6 +28,11 @@ const Team = () => {
             series A at a systems integration level giving background on the
             lifecycle of a start-up making him suited to leading the business.
           </p>
+        </div>
+        <div className="image-container">
+          <img src={require("../images/team/brandon.jpg")} alt=""></img>
+          <img src={require("../images/team/james.jpg")} alt=""></img>
+          <img src={require("../images/team/caleb.jpg")} alt=""></img>
         </div>
       </div>
       <Footer />
