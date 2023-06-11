@@ -112,11 +112,7 @@ const Home = () => {
             </Carousel>
           </div>
         </div>
-        <div className="features">
-          <div className="features-item">
-            <h3>Web interface</h3>
-            <p>sldkfjlksfd</p>
-          </div>
+        <div className="features opposite">
           <div className="features-item carousel">
             <Carousel
               autoplay="true"
@@ -129,6 +125,10 @@ const Home = () => {
               <img src={require("../images/renders/via_pressing_arrows.png")} />
               <img src={require("../images/renders/wire_feeding.png")} />
             </Carousel>
+          </div>
+          <div className="features-item">
+            <h3>Web interface</h3>
+            <p>sldkfjlksfd</p>
           </div>
         </div>
       </div>
