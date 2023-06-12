@@ -131,8 +131,14 @@ const Home = () => {
             </Carousel>
           </div>
           <div className="features-item">
-            <h3>Web interface</h3>
-            <p>sldkfjlksfd</p>
+            <h3>Web Interface</h3>
+            <p>
+              The Lobster is controlled through a web portal hosted by the
+              machine which is access either through WiFi or a direct wired
+              connection. This means that no additional software needs to be
+              installed by the user. Simply upload your design files, and the
+              web app will do the rest.
+            </p>
           </div>
         </div>
       </div>
