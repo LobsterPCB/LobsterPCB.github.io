@@ -61,7 +61,7 @@ a:hover {
   flex-wrap: wrap;
 }
 
-.text-boxes div {
+textblock {
   width: 35%;
   min-width: var(--min-width);
   background-color: var(--background-content);
@@ -71,7 +71,11 @@ a:hover {
   text-align: left;
 }
 
-.text-boxes h3 {
+textblock .text {
+  width: 100%;
+}
+
+textblock h3 {
   margin: 0;
 }
 
