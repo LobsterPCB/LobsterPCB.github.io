@@ -238,18 +238,21 @@ td {
   /* flex-direction: row; */
   justify-content: space-around;
   align-items: center;
-  flex-wrap: wrap-reverse;
+  flex-wrap: wrap;
   text-align: left;
 }
 
 .product-item div {
   min-width: var(--min-width);
   width: 40%;
+  min-width: 450px;
   text-align: left;
 }
 
 .product-item img {
-  width: 30%;
+  width: 35%;
+  min-width: 400px;
+  padding: var(--edge-gap);
 }
 
 .product-item th {
@@ -303,6 +306,10 @@ td {
 .team {
   width: 90%;
   margin: 0 var(--edge-gap) 0 var(--edge-gap);
+}
+
+.team h1 {
+  text-align: center;
 }
 
 .team .text-container {

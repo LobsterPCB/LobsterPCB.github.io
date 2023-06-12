@@ -10,7 +10,7 @@ const Product = () => {
         <h1>Product</h1>
         <div className="product">
           <div className="product-item">
-            <img src={require("../images/renders/via_pressing.png")} />
+            <img src={require("../images/product/process.png")} />
             <div>
               <h1>Our Process</h1>
               <ol>
@@ -24,6 +24,7 @@ const Product = () => {
                 <li>Holes from the last step are filled with copper wire.</li>
                 <li>Through holes are drilled.</li>
                 <li>Traces are milled.</li>
+                <li>The finished PCB can be removed from the clamp.</li>
               </ol>
             </div>
           </div>
@@ -46,16 +47,12 @@ const Product = () => {
                   <td>6/6</td>
                 </tr>
                 <tr>
-                  <td>Speed</td>
-                  <td>...</td>
-                </tr>
-                <tr>
-                  <td>Via resistivity</td>
-                  <td>...</td>
+                  <td>Motion accuracy</td>
+                  <td>±0.5mm</td>
                 </tr>
               </table>
             </div>
-            <img src={require("../images/footprint.jpg")} />
+            <img src={require("../images/product/footprint.jpg")} />
           </div>
         </div>
       </div>

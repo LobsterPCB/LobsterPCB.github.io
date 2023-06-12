@@ -118,17 +118,7 @@ const Home = () => {
         </div>
         <div className="features opposite">
           <div className="features-item carousel">
-            <Carousel
-              autoplay="true"
-              autoplayInterval={5000}
-              wrapAround="true"
-              pauseOnHover="false"
-              // withoutControls="true"
-            >
-              <img src={require("../images/renders/via_pressing.png")} />
-              <img src={require("../images/renders/via_pressing_arrows.png")} />
-              <img src={require("../images/renders/wire_feeding.png")} />
-            </Carousel>
+            <img src={require("../images/web_interface/octo_klipper.png")} />
           </div>
           <div className="features-item">
             <h3>Web Interface</h3>
