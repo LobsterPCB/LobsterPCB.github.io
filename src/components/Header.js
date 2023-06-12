@@ -21,8 +21,9 @@ const Header = () => {
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
       ></link>
       <div class="navbar" id="navbarID">
-        <NavLink to="/" activeStyle onClick={closeMobileNavbar}>
-          Home
+        <NavLink to="/" activeStyle onClick={closeMobileNavbar} id="home">
+          <img src={require("../images/Logo_No_Text.png")}></img>
+          <p>Home</p>
         </NavLink>
         <NavLink to="/product" activeStyle onClick={closeMobileNavbar}>
           Product

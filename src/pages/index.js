@@ -53,7 +53,7 @@ const Home = () => {
               suitable for in-house use.
             </p>
           </div>
-          <div className="features-item">
+          <div className="features-item carousel">
             <Carousel
               autoplay="true"
               autoplayInterval={5000}
@@ -69,7 +69,7 @@ const Home = () => {
           <h1 className="header-block">Features</h1>
         </div>
         <div className="features opposite">
-          <div className="features-item">
+          <div className="features-item carousel">
             <Carousel
               autoplay="true"
               autoplayInterval={5000}
@@ -103,7 +103,7 @@ const Home = () => {
               manually moved between workspaces between milling and via steps.
             </p>
           </div>
-          <div className="features-item">
+          <div className="features-item carousel">
             <Carousel
               autoplay="true"
               autoplayInterval={5000}
@@ -116,18 +116,8 @@ const Home = () => {
             </Carousel>
           </div>
         </div>
-        <div className="features">
-          <div className="features-item">
-            <h3>Web Interface</h3>
-            <p>
-              The Lobster is controlled through a web portal hosted by the
-              machine which is access either through WiFi or a direct wired
-              connection. This means that no additional software needs to be
-              installed by the user. Simply upload your design files, and the
-              web app will do the rest.
-            </p>
-          </div>
-          <div className="features-item">
+        <div className="features opposite">
+          <div className="features-item carousel">
             <Carousel
               autoplay="true"
               autoplayInterval={5000}
@@ -139,6 +129,10 @@ const Home = () => {
               <img src={require("../images/renders/via_pressing_arrows.png")} />
               <img src={require("../images/renders/wire_feeding.png")} />
             </Carousel>
+          </div>
+          <div className="features-item">
+            <h3>Web interface</h3>
+            <p>sldkfjlksfd</p>
           </div>
         </div>
       </div>
