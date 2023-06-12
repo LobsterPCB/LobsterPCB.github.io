@@ -9,3 +9,7 @@ The Lobster is 2-layer PCB prototyping solution designed to minimize the time be
 #### How to update
 
 Run `npm run deploy` in the project directory.
+
+#### How to work locally
+
+Run `npm start` in the project directory to run the website locally and view your changes without deploying.
