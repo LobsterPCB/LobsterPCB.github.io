@@ -17,37 +17,40 @@ const Home = () => {
       <div className="content">
         <div className="paragraph">
           <p>
-            The Lobster is 2-layer PCB prototyping machine designed to minimize
-            the time between idea and prototype. The goal is to eliminate
-            downtime in the design cycle, and facilitate the same fast,
-            iterative design approach that 3D printers provide. The lobster aims
-            to be a hands-off, plug-and-play solution which turns your circuits
-            into physical prototypes with the click of a button, and no
+            The Lobster is a 2-layer printed circuit board (PCB) prototyping
+            system designed to minimize the time between idea and final product.
+            The goal is to eliminate downtime in the design cycle, while
+            providing the same iterative design approach that 3D printers
+            provide. The Lobster aims to provide a fully automated workflow
+            which turns your circuits into physical prototypes with no
             oversight.
           </p>
-          <h1>marketing hook...</h1>
-          <p>smn smn</p>
           <h1>Capabilities</h1>
           <p>
-            Our machine can drill and mill into thin copper and fiberglass
-            sheets. It can also feed copper wire into the holes that it drills
-            and use a press to squish the wire, filling the hole and effectivley
-            creating a via. Combining these processes allows it to create a full
-            2-layer PCB quickly. Furthermore, the user just needs to load a
-            gerber file, add the copper sheet, and remove the finished PCB.
+            The Lobster takes copper plated fiberglass sheets, called FR-4,
+            processes them into PCBs. This is done by milling and drilling to
+            form all the wires and features needed for your circuit. It also
+            forms vias (connections between the copper layers) by feeding copper
+            wire into drilled holes and pressing the ends into the copper
+            layers, forming an electrical connection. Combining these processes
+            allows it to create a full 2-layer PCB quickly. All the user needs
+            to do is load a gerber file, add the copper sheet, and remove the
+            finished PCB.
           </p>
         </div>
         <div className="features" id="top-features">
           <div className="features-item">
             <h3>Automatic Via Processing</h3>
             <p>
-              The main differentiating factor between our machine and existing
-              solutions is our novel automatic via process. Current solutions
-              all require messy chemical processes to plate the copper vias, or
-              intensive manual riveting (which becomes more and more prohibitive
-              as designs grow). We have developed a via pressing process which
-              forms solid vias using copper wire and an automatic press to
-              handle this step automatically without mess or user interaction.
+              The main draw of our machine over existing solutions is our novel
+              automatic via process. Manufacturing PCBs at mass scale requires
+              chemical processes to plate the copper vias, this is not suitable
+              for office or lab use. This has led existing rapid prototyping
+              systems to rely on manual riveting, this is extremely time
+              intensive and becomes prohibitive with complex designs. We have
+              designed a via pressing process which forms solid vias using
+              copper wire and a press. This allows automated via installation
+              suitable for in-house use.
             </p>
           </div>
           <div className="features-item">
@@ -79,13 +82,14 @@ const Home = () => {
             </Carousel>
           </div>
           <div className="features-item">
-            <h3>Automatic Material Flipping</h3>
+            <h3>Full Automation</h3>
             <p>
-              To avoid the need for proprietary or obsucure raw materials, we
-              chose a cnc milling process to create 2-layer pcbs from common
-              copper-clad FR4. For the prototype, we implemented a
-              multi-toolhead design and an automatic flipping mechanism to
-              demonstrate a fully automated 2-layer pcb prototyping process.
+              Our system uses a CNC milling process to form the desired wires
+              and features on a copper board. To mill on both sides of the
+              copper, the board is automatically flipped by the machine, and
+              uses a multi-toolhead design. This means that no user interaction
+              is required for flipping or tool-changing. This combined with
+              automatic via gives the user a fully hands-off workflow.
             </p>
           </div>
         </div>
@@ -93,10 +97,10 @@ const Home = () => {
           <div className="features-item">
             <h3>Shared Motion Carriage</h3>
             <p>
-              The milling heads and via pressing mechanism of the lobster share
-              a motion carrriage. This allows us to automatically move between
-              the milling and via processes without the need for user
-              intervention.
+              The milling heads and via pressing mechanism of The Lobster share
+              a single motion carrriage. This reduces the complexity of the
+              system, while improving automation as the board does not need to
+              manually moved between workspaces between milling and via steps.
             </p>
           </div>
           <div className="features-item">
@@ -114,8 +118,14 @@ const Home = () => {
         </div>
         <div className="features">
           <div className="features-item">
-            <h3>Web interface</h3>
-            <p>sldkfjlksfd</p>
+            <h3>Web Interface</h3>
+            <p>
+              The Lobster is controlled through a web portal hosted by the
+              machine which is access either through WiFi or a direct wired
+              connection. This means that no additional software needs to be
+              installed by the user. Simply upload your design files, and the
+              web app will do the rest.
+            </p>
           </div>
           <div className="features-item">
             <Carousel

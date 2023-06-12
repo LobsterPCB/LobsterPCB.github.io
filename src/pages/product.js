@@ -14,16 +14,13 @@ const Product = () => {
             <div>
               <h1>Our Process</h1>
               <ol>
-                <li>
-                  Place a sheet of copper-clad fr4 into the PCB clamp and screw
-                  it shut.
-                </li>
+                <li>Place a sheet of copper-clad FR4 into the PCB clamp.</li>
                 <li>Upload a gerber file using the web interface.</li>
                 <li>Start the process through the web interface.</li>
                 <li>
                   Automatic calibration tests are run, like mesh bed leveling.
                 </li>
-                <li>Holes for the via's are drilled into the PCB.</li>
+                <li>Holes for the vias are drilled into the PCB.</li>
                 <li>Holes from the last step are filled with copper wire.</li>
                 <li>Through holes are drilled.</li>
                 <li>Traces are milled.</li>
