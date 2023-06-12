@@ -245,13 +245,12 @@ td {
 .product-item div {
   min-width: var(--min-width);
   width: 40%;
-  min-width: 450px;
   text-align: left;
 }
 
 .product-item img {
+  min-width: var(--min-width);
   width: 35%;
-  min-width: 400px;
   padding: var(--edge-gap);
 }
 
